@@ -15,7 +15,7 @@ Thus I wrote some complex commands into bash scripts, so that getting python run
 
 * The official documentation: [Torch HPC Getting Started](<https://services.rt.nyu.edu/docs/hpc/getting_started/intro/>)
 * I started my journey with HPC by following [HPC Notes by Hammond Liu](https://abstracted-crime-34a.notion.site/63aae4cc39904d11a5c744f480a42017?v=261a410e1fe24d0294ed744c21a41015&p=7ed5e95ce1dc400898f6462f6de47d2c&pm=s)
-* Credit to @tx467 for contributing the custom cuda images code in chslauncher.sh
+* Credit to [@tx467](https://github.com/tx467) for contributing the custom cuda images code in chslauncher.sh
 
 
 ## Topics covered in this cheatsheet
