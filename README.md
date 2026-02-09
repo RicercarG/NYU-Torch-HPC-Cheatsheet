@@ -2,7 +2,7 @@
 
 Written by [Yuanhe Guo](https://ricercarg.github.io) (<yg2709@nyu.edu>)
 
-**A beginner guide & automated scripts for running **python** on nyu torch hpc**
+**A beginner guide & automated scripts for running **python** on NYU Torch HPC.**
 
 Though NYU Torch HPC has an awesome official documentation, I have to go through it and search for the commands I need each time when I want to setup a new conda environment. Meanwhile, there exist quite a few common issues whose solutions are not covered by the official documentation. So I decided to write a cheatsheet for myself and others who may need it.
 
