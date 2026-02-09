@@ -8,7 +8,7 @@ Though NYU Torch HPC has an awesome official documentation, I have to go through
 
 Thus I wrote some complex commands into bash scripts, so that getting python run flawlessly on NYU Torch HPC is as simple as ordering a burger in a fast food restaurant.
 
-[![Get Started](https://img.shields.io/badge/Click%20here%20to%20get%20started-5865F2?style=for-the-badge)](https://github.com/RicercarG/NYU-Torch-HPC-Cheatsheet/wiki)
+[![Get Started](https://img.shields.io/badge/Click%20here%20to%20get%20started-57068c?style=for-the-badge)](https://github.com/RicercarG/NYU-Torch-HPC-Cheatsheet/wiki)
 
 
 ## Acknowledgement
