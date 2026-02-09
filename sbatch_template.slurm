@@ -4,13 +4,13 @@
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=64GB
-#SBATCH --time=6:00:00         # max time for running this job
-#SBATCH --gres=gpu:1           # request for any gpu available
+#SBATCH --time=6:00:00             # max time for running this job
+#SBATCH --gres=gpu:1               # request for any gpu available
+#SBATCH --output=log/slurm-%j.out  # output log file, need to create a folder named log
+#SBATCH --account=pr_torch_xxxxx   # CHANGE THIS TO YOUR PROJECT ACCOUNT
 
 # The following flags are disabled. Change to #SBATCH if you want to enable them
 ##SBATCH --gres=gpu:l40s:4     # [alternative]request for gpu(s) with specific type
-##SBATCH --output=log/slurm-%j.out # [optional] output log file, need to create a folder named log
-##SBATCH --account=pr_000_tandon_advanced # [optional] type in your project account if you have any. Maybe ask your professor for priority accout.
 ##SBATCH --mail-type=START,END
 ##SBATCH --mail-user=your.email@nyu.edu # [optional] Change to your email account. You will receive an email if your sbatch job ends
 

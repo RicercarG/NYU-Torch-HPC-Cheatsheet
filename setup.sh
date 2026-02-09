@@ -7,15 +7,20 @@ NC='\033[0m' # No Color
 script_dir=$(dirname "$(realpath "$0")")
 bashrc_file="$HOME/.bashrc"
 
-ssl_cert='export SSL_CERT_FILE=/etc/ssl/cert.pem'
+ssl_cert='# set SSL_CERT_FILE in condition
+if [ -f /etc/ssl/certs/ca-certificates.crt ]; then
+    export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+elif [ -f /etc/ssl/cert.pem ]; then
+    export SSL_CERT_FILE=/etc/ssl/cert.pem
+fi'
 
 # Check if the line already exists in .bashrc
-if ! grep -qF "$ssl_cert" ~/.bashrc; then
+if ! grep -Fq "export SSL_CERT_FILE=" ~/.bashrc; then
   # Append the line to .bashrc if it doesn't exist
   echo "$ssl_cert" >>~/.bashrc
-  echo "Added ssl certificate file to .bashrc"
+  echo "Added ssl certificate file config to .bashrc"
 else
-  echo "ssl certificate file already exists in .bashrc"
+  echo "ssl certificate file is already configured"
 fi
 
 if ! echo "$PATH" | grep -q "$script_dir"; then
