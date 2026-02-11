@@ -4,9 +4,9 @@ Written by [Yuanhe Guo](https://ricercarg.github.io) (<yg2709@nyu.edu>)
 
 **A beginner guide & automated scripts for running **python** on NYU Torch HPC.**
 
-Though NYU Torch HPC has an awesome official documentation, I have to go through it and search for the commands I need each time when I want to setup a new conda environment. Meanwhile, there exist quite a few common issues whose solutions are not covered by the official documentation. So I decided to write a cheatsheet for myself and others who may need it.
+Though NYU Torch HPC has an awesome official documentation, I have to go through it and search for the commands I need each time when I want to setup a new conda environment. Meanwhile, there exist quite a few common issues whose solutions are not covered by the official documentation. So I decided to make a cheatsheet for myself and others who may need it.
 
-Thus I wrote some complex commands into bash scripts, so that getting python run flawlessly on NYU Torch HPC is as simple as ordering a burger in a fast food restaurant.
+In this repo, I wrote some complex commands into bash scripts, so that getting python running flawlessly on NYU Torch HPC is as simple as ordering a burger in a fast food restaurant.
 
 [![Get Started](https://img.shields.io/badge/Click%20here%20to%20get%20started-57068c?style=for-the-badge)](https://github.com/RicercarG/NYU-Torch-HPC-Cheatsheet/wiki)
 
@@ -26,7 +26,7 @@ Please feel free to open an issue if you have any questions or suggestions.
   * [x] Apply for NYU Torch HPC access
   * [x] Basic Linux commands
   * [x] Vim
-  * [x] Vscode
+  * [ ] Vscode
 * Quick Starting Pack
   * [x] Connect to HPC
   * [x] Request CPU/GPU Sessions
