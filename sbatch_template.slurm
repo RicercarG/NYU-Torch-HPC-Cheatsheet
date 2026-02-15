@@ -11,7 +11,7 @@
 
 # The following flags are disabled. Change to #SBATCH if you want to enable them
 ##SBATCH --gres=gpu:l40s:4     # [alternative]request for gpu(s) with specific type
-##SBATCH --mail-type=START,END
+##SBATCH --mail-type=BEGIN,END
 ##SBATCH --mail-user=your.email@nyu.edu # [optional] Change to your email account. You will receive an email if your sbatch job ends
 
 # Singularity path
