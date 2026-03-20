@@ -35,6 +35,14 @@ if [ "$num_cpu" -ne 0 ]; then
         gpu_type="l40s"
         break
         ;;
+      "a100")
+        gpu_type="a100"
+        break
+        ;;
+      "h100")
+        gpu_type="h100"
+        break
+        ;;
       "h200")
         gpu_type="h200"
         break
