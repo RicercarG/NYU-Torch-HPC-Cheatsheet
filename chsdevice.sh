@@ -28,7 +28,7 @@ if [ "$num_cpu" -ne 0 ]; then
   fi
   if [ "$num_gpu" -ne 0 ]; then
     echo "What GPU do you want":
-    options=("l40s" "h200")
+    options=("l40s" "a100" "h100" "h200")
     select opt in "${options[@]}"; do
       case $opt in
       "l40s")
